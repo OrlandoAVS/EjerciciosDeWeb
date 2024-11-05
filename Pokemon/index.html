@@ -5,17 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!-- Fuente -->
+    <link rel="stylesheet" href="style.css"> <!-- Mandando a llamar a mi css -->
+    
     <title>Pokemon</title>
 </head>
 
 <body>
-    <main>
-        <h1>Bienvenido</h1>
-        <h2>Ingrese el nombre de un Pokemon</h2>
-        <input type="text">
-        <button id="boton" onclick="">Enviar</button>
-    </main>
-</body>
+    <h1>Bienvenido</h1>
+    <h2>Ingrese el nombre de un Pokemon</h2>
+    <div class="contenedor">
 
-</html>
+        <div class="pokemon">
+            <input type="text" id="poke1">
+            <button type="button">Enviar</button>
+        </div>
+
+        <ul id="pokemons">
+        </ul>
+
+    </div>
+    <script src="script.js"></script> <!-- Mandando a llamar a mi js -->
+</body>
